@@ -5,7 +5,7 @@
 # each slot will have 2 possible digits (a 0 or a 1)
 # that is 2^3 possibilities
 # need the algorithm to go through and figure out all possible combinations
-possible_digits = 6 #subtract 1 if used in function
+possible_digits = 10 #subtract 1 if used in function
 possible_tickers = 3 #subtract 1 if used in function
 #setup below
 combos_list = [] #to contain combinations
@@ -14,7 +14,7 @@ current_combo = [0,0,0,0,0,0,0] #may not even need to declare with all three slo
 pin_counter = 0
 pin_counter_highest = 6
 digit_counter = 0
-digit_counter_highest = 6
+digit_counter_highest = 9
 
 #create_combo
 
